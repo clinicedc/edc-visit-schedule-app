@@ -9,7 +9,7 @@ namespace = false
 
 [project]
 name = "edc-visit-schedule-app"
-version = "0.1.1"
+version = "0.1.2"
 description = "Test app for clinicedc/edc projects"
 readme = {file = "README.rst", content-type = "text/x-rst"}
 license = "GPL-3.0-or-later"
