@@ -176,7 +176,8 @@ class OffScheduleSix(SiteModelMixin, OffScheduleModelMixin, BaseUuidModel):
 
 class BadOffSchedule1(SiteModelMixin, OffScheduleModelMixin, BaseUuidModel):
     """Meta.OffScheduleModelMixin.offschedule_datetime_field
-    is None"""
+    is None.
+    """
 
     offschedule_datetime_field_attr = None
 
@@ -191,7 +192,7 @@ class OnScheduleSeven(SiteModelMixin, OnScheduleModelMixin, BaseUuidModel):
 
 
 class OffScheduleSeven(SiteModelMixin, OffScheduleModelMixin, BaseUuidModel):
-    """Is Missing Meta.OffScheduleModelMixin"""
+    """Is Missing Meta.OffScheduleModelMixin."""
 
     class Meta:
         pass
